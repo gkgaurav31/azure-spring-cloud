@@ -22,7 +22,7 @@ title: Gaurav's GitHub Pages!
 #email: gkgaurav31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just another blog. 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/azure-spring-cloud" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gkgaurav31
 github_username:  gkgaurav31
