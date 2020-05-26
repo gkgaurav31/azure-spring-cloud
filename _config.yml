@@ -30,10 +30,11 @@ twitter_username: gkgaurav31
 github_username:  gkgaurav31
 
 # Build settings
-theme: jekyll-theme-leaf
+remote_theme: "SupunKavinda/jekyll-theme-leaf"
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
 
 defaults:
   -

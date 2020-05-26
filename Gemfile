@@ -14,6 +14,7 @@ gem "minima", "~> 2.5"
 gem 'jekyll-compose', group: [:jekyll_plugins] #required to automate post-creation using bundle exec jekyll post "New Post"
 gem 'jekyll-theme-leaf', '~> 0.1.0'
 gem 'jemoji'
+gem "jekyll-remote-theme"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
