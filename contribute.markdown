@@ -6,5 +6,4 @@ permalink: /contribute/
 
 Contributions to this site are welcome. :)
 
-Pull Request: [https://github.com/gkgaurav31/blog/pulls](https://github.com/gkgaurav31/blog/pulls)
-
+[PULL REQUEST](https://github.com/gkgaurav31/azure-spring-cloud/pulls)

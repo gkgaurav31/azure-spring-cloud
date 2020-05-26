@@ -4,19 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This blog contains about things which I find interesting and useful in some way, and is not necessarily technical. I hope it is helpful to someone.  
+A blog which you should bookmark if you are using Azure Spring Cloud! :smile:
 
-
-### About the theme:
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+This is just a personal blog that contains things that I write while I learn.

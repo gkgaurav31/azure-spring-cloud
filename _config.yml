@@ -18,7 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gaurav's GitHub Pages!
+title: Gaurav's GitHub Pages - Azure Spring Cloud!
+iconURL: /assets/default-icon.png
+
 #email: gkgaurav31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just another blog. 
@@ -28,9 +30,10 @@ twitter_username: gkgaurav31
 github_username:  gkgaurav31
 
 # Build settings
-theme: minima
+theme: jekyll-theme-leaf
 plugins:
   - jekyll-feed
+  - jemoji
 
 defaults:
   -
