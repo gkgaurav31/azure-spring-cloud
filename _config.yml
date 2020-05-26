@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Gaurav's GitHub Pages - Azure Spring Cloud!
-iconURL: /assets/default-icon.png
+iconURL: assets/default-icon.png
 
 #email: gkgaurav31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
