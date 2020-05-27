@@ -18,8 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Gaurav's GitHub Pages - Azure Spring Cloud!
-iconURL: assets/default-icon.png
+title: G-Pages Azure Spring Cloud!
 
 #email: gkgaurav31@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -28,6 +27,8 @@ baseurl: "/azure-spring-cloud" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gkgaurav31
 github_username:  gkgaurav31
+iconURL: assets/default-icon.png
+permalink: :slug
 
 # Build settings
 remote_theme: "SupunKavinda/jekyll-theme-leaf"
