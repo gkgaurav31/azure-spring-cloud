@@ -6,7 +6,7 @@ date: 2020-06-09 19:18 +0530
 
 ## LET ME TELL YOU A STORY
 
-### CHAPTER 1
+### [CHAPTER 1](#chapter1)
 
 There was a guy called Alex. He owned a small shop called Minimart. After people got into online shopping, his business took a hit and he had hardly enough money left with him. He asked his son, Nick, to help him build an online website like Flipkart. Nick, who was still in college, found it to be an interesting idea, and was keep on helping his family.
 
@@ -18,7 +18,7 @@ Not after very long time, they were able to purchase 10 more machines to host th
 
 There was one clear problem. If Nick wanted to just scale-out a specific API, like "Get order status", with the current design, he could not do it. He would need to get another VM and deploy his entire application. This was a huge problem for him. As usual, Nick searched for answers, and found that there is a way of developing and designing applications which could solve his problem. He found out about Micro Services.  
 
-### Chapter 2
+### [CHAPTER 2](#chapter2)
 
 Nick spent some time to understand how his app would work with this new "Architecture". His application would need to be refractored a lot. He rolled up his sleeves and started working on his new project. He got to know that instead of packing his entire application as a single JAR file, he would need to break them into smaller versions. So, he would need a Java Application for "Add to Cart", another one for "Get Order Status" and like wise. Since his app was already modularized, Nick was able to achive this in a short period of time. So, for each module, he created a different application - a micro service. Soon enough, he realized there were some implicit problems which needed answers:
 
@@ -30,4 +30,4 @@ Nick spent some time to understand how his app would work with this new "Archite
 
 ### CHAPTER 3
 
-Coming soon. :)
+Stay Tuned. :)
