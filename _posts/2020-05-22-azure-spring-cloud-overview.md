@@ -18,4 +18,5 @@ Here are some useful links to get started with Azure Spring Cloud:
 - [Troubleshooting - Common Issues](https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-troubleshoot)
 - [More Tutorials](https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-tutorial-config-server)
 - [How-To Guides](https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-tutorial-prepare-app-deployment)
+- [Azure Spring Cloud Playground](https://azure-spring-cloud.azurewebsites.net/)
 
