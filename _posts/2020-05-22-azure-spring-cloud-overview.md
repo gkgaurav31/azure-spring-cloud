@@ -19,4 +19,5 @@ Here are some useful links to get started with Azure Spring Cloud:
 - [More Tutorials](https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-tutorial-config-server)
 - [How-To Guides](https://docs.microsoft.com/en-us/azure/spring-cloud/spring-cloud-tutorial-prepare-app-deployment)
 - [Azure Spring Cloud Playground](https://azure-spring-cloud.azurewebsites.net/)
+- [Migrate Spring Boot to Azure Spring Cloud](https://docs.microsoft.com/en-us/azure/developer/java/migration/migrate-spring-boot-to-azure-spring-cloud)
 
