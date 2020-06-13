@@ -36,6 +36,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-remote-theme
+  - jekyll-seo-tag
 
 defaults:
   -
