@@ -14,7 +14,7 @@ You have created a Web application using the microservice architecture via Sprin
 
 Every object that we create in Kubernetes gets created in a namespace called ***default***. You cannot have 2 pods with the same name in the same namespace. So, one way to have the staging application is to create each pod with a different name. Well, that would definitely work. At the same time, we might also want to assign different level of access to the production and the staging application. So, management becomes a difficult task in this case. The solution is to create another namespace. It's like a ***logical*** separation of different objects. So, you can have a pod called foo in the default namespace, and another one with the same name foo in a different namespace.
 
-### Here is how it would look
+### Here's how it would look
 
 - Create a namespace called staging:  
 
