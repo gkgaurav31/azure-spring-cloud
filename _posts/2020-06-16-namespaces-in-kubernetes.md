@@ -8,7 +8,7 @@ date: 2020-06-16 22:56 +0530
 
 In simple terms, Namespaces provide a way of re-using the same resource/object name in the same AKS cluster. It is important to note that the resouces would still run on the same Nodes, so they can still talk to each other.
 
-### Imaging this
+### Imagine this
 
 You have created a Web application using the microservice architecture via Spring Cloud. Generally, you would want to keep the running application untouched, and create another ***staging*** application with similar configurations.  
 
