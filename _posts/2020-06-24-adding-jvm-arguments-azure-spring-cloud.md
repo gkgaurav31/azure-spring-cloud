@@ -42,3 +42,18 @@ Arguments
 Just go to the App in Azure Spring Cloud, and configure JVM arguments via Configurations blade -> General Settings:  
 
 ![asc-jvm-args]({{ site.baseurl }}/assets/asc-jvm-args.png)
+
+### Via Command Line
+
+```bash
+az spring-cloud app update -n coupon-service --jvm-options='-Xms256m -Xmx512m'
+```
+
+:exclamation: This assumes that you have already set the default __Resouce Group__ and __Spring Cloud__ resource, which can be done using:
+
+```cli
+az configure --defaults group=$AZ_RESOURCE_GROUP
+az configure --defaults spring-cloud=$AZ_SPRING_CLOUD_NAME
+```
+
+:exclamation: Use double-quotes when using command-line on Windows.
