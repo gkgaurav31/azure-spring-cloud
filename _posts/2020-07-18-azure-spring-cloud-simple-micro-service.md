@@ -246,7 +246,6 @@ If you update the Config Server now, you will need to restart the App as well.
 
 ```cli
 az spring-cloud app restart -n mymicroservice
-
 ```
 
 We can use polling to check for any changes in the Config Server which will avoid having to restart our App. I will cover this in my next post.
