@@ -43,7 +43,7 @@ Add this profile named cloud in pom.xml:
 
 Let's add some code!  
 
-Here, we will use a REST Controller to read and Environment Variable return it.
+Here, we will use a REST Controller to read an Environment Variable and return it.
 
 __Sample Code:__
 
