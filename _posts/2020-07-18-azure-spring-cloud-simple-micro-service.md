@@ -18,7 +18,7 @@ You can use [Spring initializr](https://start.spring.io/) to get the boilerplate
 
 ![snapshot]({{ site.baseurl }}/assets/simple-ms-create.png)
 
-Extract the zip file downloaded and extract the content using your favourite IDE.
+Extract the zip file downloaded and import the project using your favourite IDE.
 
 ### STEP 2
 
@@ -203,6 +203,18 @@ This command usually takes minutes to run. Add '--verbose' parameter if needed.
 [1/3] Requesting for upload URL
 [2/3] Uploading package to blob
 [3/3] Updating deployment in app 'mymicroservice' (this operation can take a while to complete)
+```
+
+Deployment using source code is straight-forward. Use the following command the project root:
+
+```cli
+az spring-cloud app deploy -n mymicroservice
+```
+
+If you see the following exception during deployment, try to remove/rename mvnw script:
+
+```txt
+
 ```
 
 ### STEP 8
