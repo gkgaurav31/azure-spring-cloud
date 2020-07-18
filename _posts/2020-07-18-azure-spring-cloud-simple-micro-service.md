@@ -96,7 +96,7 @@ mvn spring-boot:run
 
 In order to make it ___Azure Spring Cloud ready___, we need to make use of the Maven profile we added earlier via:
 
-```mvn
+```cmd
 mvn clean package -DskipTests -Pcloud
 ```
 
