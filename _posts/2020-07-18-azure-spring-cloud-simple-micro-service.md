@@ -82,7 +82,7 @@ set NAME=Gaurav
 mvn clean package
 ```
 
-Ignore the errors related to Eureka for now. This is because we are not running any Eureka Server on the local system:
+Ignore the errors related to Eureka for now. This is because we are not running any [Eureka Server](https://spring.io/guides/gs/service-registration-and-discovery/) on the local system:
 
 __ERROR 19932 --- [nfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}__
 
