@@ -211,10 +211,11 @@ Deployment using source code is straight-forward. Use the following command the 
 az spring-cloud app deploy -n mymicroservice
 ```
 
-If you see the following exception during deployment, try to remove/rename mvnw script:
+If you see the following exception during deployment, try to remove/rename mvnw script in your workspace:
 
 ```txt
-
+Pivotal Build System Buildpack 1.0.97
+  fork/exec /workspace/mvnw: permission denied
 ```
 
 ### STEP 8
