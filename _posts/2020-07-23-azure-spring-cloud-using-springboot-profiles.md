@@ -117,17 +117,17 @@ If we try to access the /test endpoint now, we should get ___Hello, from mymicro
 
 #### Change the profile to dev
 
-There are different ways to do this. We could have created a bootstrap.properties file in our Spring Boot project and set the profile using spring.profiles.active=dev.
+There are different ways to do this. We could have created a __bootstrap.properties__ file in our Spring Boot project and set the profile using spring.profiles.active=dev.
 
 There is another convenient way to do it using JVM argument.
 
 Set the following JVM argument for our App in Azure Spring Cloud:
 
 ```cli
-az spring-cloud app update -n mymicroservice --jvm-options=-Dspring.profiles.active=dev
+az spring-cloud app update -n mymicroservice --jvm-options='-Dspring.profiles.active=dev'
 ```
 
-REFER: [ADDING JVM ARGUMENTS IN AZURE SPRING CLOUD](http://localhost:4000/adding-jvm-arguments-azure-spring-cloud)
+REFER: [ADDING JVM ARGUMENTS IN AZURE SPRING CLOUD](https://gkgaurav31.github.io/azure-spring-cloud/adding-jvm-arguments-azure-spring-cloud)
 
 If you access the /test endpoint now, you should see ___Hello, from mymicroservice-dev!___
 
