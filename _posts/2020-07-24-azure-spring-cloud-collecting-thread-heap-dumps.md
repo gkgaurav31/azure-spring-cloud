@@ -112,6 +112,6 @@ curl -X GET http://localhost:8080/actuator/health -H 'Authorization: Basic YWRta
 
 __NOTE:__ If you are using Windows Terminal try using double quotes.
 
-[SAMPLE APPLICTION ON GITHUB](https://github.com/gkgaurav31/actuator-with-spring-security)
+[SAMPLE APPLICATION ON GITHUB](https://github.com/gkgaurav31/actuator-with-spring-security)
 
 That's it! :v:
