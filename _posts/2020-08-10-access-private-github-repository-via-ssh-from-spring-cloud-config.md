@@ -26,7 +26,8 @@ This will create a public and a private key under C:\Users\gauk/.ssh/.
 
 Copy the contents from C:\Users\gauk/.ssh/id_rsa_spring.pub (Public Key) and add it to GitHub:
 
-![ssh-key-github](/assets/ssh-key-github.png)
+![ssh-key-github]({{ site.baseurl }}/assets/ssh-key-github.png)
+
 
 ### CREATE A SPRING BOOT PROJECT WITH THE CONFIG SERVER DEPENDENCY:
 
