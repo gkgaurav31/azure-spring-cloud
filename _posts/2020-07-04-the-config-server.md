@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Config Server - Azure Spring Cloud
+title: Azure Spring Cloud - Config Server
 date: 2020-07-04 00:59 +0530
 ---
 
