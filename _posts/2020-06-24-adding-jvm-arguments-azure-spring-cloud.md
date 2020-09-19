@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adding JVM arguments - Azure Spring Cloud
+title: Azure Spring Cloud - Adding JVM arguments
 date: 2020-06-24 01:59 +0530
 ---
 
