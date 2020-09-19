@@ -24,6 +24,19 @@ Go to the Azure Spring Cloud Resource -> Config Server
 Specify the GitHub URL, Label etc. and choose SSH as the Authentication protocol.
 Copy your private key in the text box and save.
 
+### (Optional) To ensure that the key works, you can test it on the local system as well. 
+
+Reference: [Clone GitHub Repository using SSH](https://www.toolsqa.com/git/clone-repository-using-ssh/)
+
+```bash
+eval "$(ssh-agent -s)"
+
+ssh-add <private key>
+
+git clone <GIT_URL>
+#Example of the URL: git@github.com:gkgaurav31/testconfig.git
+```
+
 You should now be able to access your private GitHub Repository via SSH from Azure Spring Cloud. :v:
 
  
