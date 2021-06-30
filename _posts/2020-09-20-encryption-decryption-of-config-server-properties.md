@@ -5,7 +5,8 @@ date: 2020-09-20 01:11 +0530
 ---
 
 There are two types of Encryptions primarily which we can use:
-- Symmetric Encryption: Same key will be used to encrypt and decrypt. 
+
+- Symmetric Encryption: Same key will be used to encrypt and decrypt.  
 - Asymmetric Encryption: uses ___keytool___ to store the public and private keys
 
 In this blog, we will look into Symmetric Encryption.
