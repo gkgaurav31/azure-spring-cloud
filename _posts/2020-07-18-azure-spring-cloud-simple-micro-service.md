@@ -22,25 +22,6 @@ Extract the zip file downloaded and import the project using your favourite IDE.
 
 ### STEP 2
 
-Add this profile named cloud in pom.xml:
-
-```xml
-<profiles>
-<profile>
-    <id>cloud</id>
-    <dependencies>
-        <dependency>
-            <groupId>com.microsoft.azure</groupId>
-            <artifactId>spring-cloud-starter-azure-spring-cloud-client</artifactId>
-            <version>2.2.0</version>
-        </dependency>
-    </dependencies>
-</profile>
-</profiles>
-```
-
-### STEP 3
-
 Let's add some code!  
 
 Here, we will use a REST Controller to read an Environment Variable and return it.
@@ -69,7 +50,7 @@ public class HelloController {
 
 ```
 
-### STEP 4
+### STEP 3
 
 To keep things simple, we will set the Environment Variable from the command-line and test our application. On Azure Spring Cloud, we will make use of a Config Server.
 
@@ -100,7 +81,7 @@ In order to make it ___Azure Spring Cloud ready___, we need to make use of the M
 mvn clean package -DskipTests -Pcloud
 ```
 
-### STEP 5
+### STEP 4
 
 Let's create a new Spring Cloud App!
 
@@ -149,7 +130,7 @@ Command group 'spring-cloud' is in preview. It may be changed/removed in a futur
 App create succeeded
 ```
 
-### STEP 6
+### STEP 5
 
 Before we deploy our application, let us create a Config Server to expose the ___NAME___ Environment Variable.
 
@@ -187,7 +168,7 @@ Config Server is a cerntralized place to keep all your configuration files. It w
 
 We are now ready to deploy our application!
 
-### STEP 7
+### STEP 6
 
 We can deploy our application in two ways:
 
@@ -218,7 +199,7 @@ Pivotal Build System Buildpack 1.0.97
   fork/exec /workspace/mvnw: permission denied
 ```
 
-### STEP 8
+### STEP 7
 
 Our app is ready to run!
 
